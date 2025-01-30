@@ -20,39 +20,37 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- tailwind cdn -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-     <!-- style sections -->
-  <style>
-    .body-font {
-      font-family: "Poppins", serif;
-    }
-    .title-font {
-      font-family: "EB Garamond", serif;
-    }
-    
-  </style>
-  <!-- tailwind custom color -->
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            clifford: "#da373d",
-            "color-primary": "#B68C5A",
-            "daek-3": "#707070",
+    <!-- style sections -->
+    <style>
+      .body-font {
+        font-family: "Poppins", serif;
+      }
+      .title-font {
+        font-family: "EB Garamond", serif;
+      }
+    </style>
+    <!-- tailwind custom color -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              "color-primary": "#B68C5A",
+              "daek-3": "#707070",
+            },
           },
         },
-      },
-    };
-  </script>
-  <!-- fontawosome kit -->
-  <script
-    src="https://kit.fontawesome.com/91ea9f2f2e.js"
-    crossorigin="anonymous"
-  ></script>
-  <!-- style -->
-   
+      };
+    </script>
+    <!-- fontawosome kit -->
+    <script
+      src="https://kit.fontawesome.com/91ea9f2f2e.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- style -->
   </head>
- 
+
   <body class="body-font">
     <!-- header section -->
 
@@ -383,9 +381,7 @@
         </p>
         <div class="grid grid-cols-1 md:grid-cols-2 content-between">
           <!-- location and contact section -->
-          <div
-            class=" grid grid-cols-1 md:grid-cols-2 justify-items-center"
-          >
+          <div class="grid grid-cols-1 md:grid-cols-2 justify-items-center">
             <div class="mx-auto border py-12 px-4 bg-[#F8F8F8] w-[255px]">
               <img class="mx-auto mb-4" src="./images/location.png" alt="" />
               <h5 class="title-font text-2xl font-extrabold text-center mb-4">
@@ -464,7 +460,7 @@
     <!-- footer section -->
     <footer class="footer bg-black text-white p-10">
       <aside>
-        <img class="" src="images/logo.png" alt="" />
+        <img class="mb-7" src="images/logo.png" alt="" />
         <p>
           There are many variations of <br />
           passages of Lorem Ipsum <br />
@@ -474,7 +470,7 @@
         </p>
       </aside>
       <nav>
-        <h6 class="footer-title title-font font-extrabold capitalize">
+        <h6 class="footer-title title-font font-extrabold capitalize mb-12">
           Usefull Link
         </h6>
         <a class="link link-hover">Homes</a>
@@ -484,7 +480,7 @@
         <a class="link link-hover">Contact Us</a>
       </nav>
       <nav>
-        <h6 class="footer-title title-font font-extrabold capitalize">
+        <h6 class="footer-title title-font font-extrabold capitalize mb-12">
           Contact Now
         </h6>
         <a class="link link-hover"
@@ -502,7 +498,7 @@
       </nav>
       <nav>
         <h6
-          class="footer-title title-font font-extrabold capitalize text-white"
+          class="footer-title title-font font-extrabold capitalize text-white mb-12"
         >
           Subscribe
         </h6>
@@ -512,20 +508,20 @@
           Spam Mails</a
         >
 
-        <div class="flex border">
-          <span><input class="bg-white h-full" type="text" /></span>
+        <div class="flex rounded-xl">
+          <span><input class="bg-white h-full py-3 " type="text" /></span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6 bg-[#B68C5A] text-white p-2"
             fill="none"
             viewBox="0 0 24 24"
+            stroke-width="1.5"
             stroke="currentColor"
+            class="size-6 bg-[#B68C5A]   text-white py-3 h-full"
           >
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
-              stroke-width="2"
-              d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+              d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5"
             />
           </svg>
         </div>
